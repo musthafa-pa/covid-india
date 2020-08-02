@@ -1,7 +1,16 @@
 .App {
   text-align: center;
 }
-
+#root{
+  
+}
+.bg-dark {
+  background: linear-gradient(45deg, #395a7b, #032e58) !important;
+}
+body{
+  background: #dcdbdb;
+  height: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +44,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+#heads{
+  display: flex;
+  justify-content: space-around;
+  height: 130px;
+  padding-top: 5px;
+  background: #eaeaea;
+}
+
+#cases, #recoveries, #deaths, #predictions {
+  height: 80px;
+  width: 220px;
+  margin-top: 20px;
+  background-color: #283b4e;
+  border-radius: 7px;
+  box-shadow: 3px 2px 6px #a9a9a994;
+}
+#reports{
+  
+}
+#graph_1{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-bottom: 20px;
+}
+#graph_2{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+#tot_cases,#tot_recoveries{
+  height: 260px;
+  width: 700px;
+  margin:20px;
+  background: rgb(255, 255, 255);
+  display: block;
+}
+
+#tot_deaths,#tot_predic{
+  height: 260px;
+  width: 700px;
+  margin:20px;
+  background: rgb(255, 255, 255);
+  display: block;
+}
+h4{
+  font-size: 14px !important;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Jost';
+}
+p{
+  color: #fdfdfd;
+    text-align: center;
+    font-size: 29px;
+}
+.navbar-brand,.nav-link{
+  font-family: 'Jost';
+}
+#search_btn{
+  background-color: #1a38ce !important;
+  border: none;
+  color: white;
 }
