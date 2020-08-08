@@ -1,3 +1,5 @@
+Check the current version of the project: https://codehacks.in/covid-india
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
